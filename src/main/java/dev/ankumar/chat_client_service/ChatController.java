@@ -15,7 +15,7 @@ public class ChatController {
     }
 
     @GetMapping("/ask-me")
-    public String askMe(@RequestParam(value = "message") String message){
+    public String askMe(@RequestParam(value = "message", defaultValue = "Tell me a joke") String message) {
         return chatClient.prompt(message).call().content();
     }
 }
