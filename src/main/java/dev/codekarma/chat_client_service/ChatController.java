@@ -1,4 +1,4 @@
-package dev.ankumar.chat_client_service;
+package dev.codekarma.chat_client_service;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.GetMapping;

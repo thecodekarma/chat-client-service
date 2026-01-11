@@ -1,4 +1,4 @@
-package dev.ankumar.chat_client_service;
+package dev.codekarma.chat_client_service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
